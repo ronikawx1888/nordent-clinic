@@ -1,0 +1,35 @@
+/* FAQ follows the supplied 1920 × 1100 Figma export. */
+.faq{background:#fff}
+.faq h2,.faq h2 span{color:var(--blue);font-weight:700}
+.faq-title-line{display:block}
+.faq-list details{border:0;padding:0;color:var(--ink);background:transparent}
+.faq-list summary{position:relative;background:#f3f5fe;border-radius:15px;font-family:'Instrument Sans',sans-serif;font-weight:500;box-shadow:inset 4px 4px 10px -8px #606fa820}
+.faq-list summary>span{display:grid;place-items:center;flex-shrink:0;width:60px;height:60px;background:#fff;border-radius:15px;font-size:0!important;transform:none!important}
+.faq-list summary>span::before{content:'';display:block;width:13px;height:13px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-4px) rotate(45deg)}
+.faq-list details[open] summary>span::before{transform:translateY(4px) rotate(225deg)}
+.faq-answer{color:var(--ink);font-family:'Instrument Sans',sans-serif;font-weight:500}
+@media(min-width:1000px){
+ .faq.section{display:grid;grid-template-columns:minmax(0,901fr) minmax(0,909fr);gap:1.5625vw;padding:6.25vw 2.083333vw;align-items:start}
+ .faq-intro{position:relative;min-height:44.791667vw;padding:0}
+ .faq h2{font-family:Urbanist,sans-serif;font-size:4.947917vw;line-height:1;font-weight:700;letter-spacing:-.04em;transform:translateY(.052083vw)}
+ .faq-title-line:first-child{height:4.6875vw}
+ .faq-decoration{position:absolute;left:8.90625vw;top:10.572917vw;display:block;width:37.34375vw;height:20.833333vw;font-family:Urbanist,sans-serif;font-size:20.833333vw;font-weight:700;line-height:1;letter-spacing:-.04em;color:#eff7ff}
+ .faq-intro>p{position:absolute;left:0;top:34.84375vw;width:21.979167vw;max-width:none;margin:0;font-size:1.145833vw;font-weight:400;line-height:1.05}
+ .faq-intro>p:last-child{top:41.197917vw;width:23.90625vw}
+ .faq-list{padding:0}
+ .faq-list details{margin:0 0 .78125vw;border-radius:0}
+ .faq-list details:last-child{margin-bottom:0}
+ .faq-list summary{min-height:5.729167vw;height:5.729167vw;padding:0 .78125vw 0 1.302083vw;gap:1.041667vw;font-size:1.25vw;line-height:1.5;border-radius:.78125vw}
+ .faq-list summary>span{width:3.125vw;height:3.125vw;border-radius:.78125vw}
+ .faq-list summary>span::before{width:.677083vw;height:.677083vw;border-width:.104167vw;transform:translateY(-.208333vw) rotate(45deg)}
+ .faq-list details[open] summary>span::before{transform:translateY(.416667vw) rotate(225deg)}
+ .faq-answer{padding:.989583vw 1.302083vw 1.770833vw;font-size:1.25vw;line-height:1.5;min-height:6.510417vw}
+ .faq-answer p{max-width:36.666667vw;line-height:1.5}
+}
+@media(max-width:999px){
+ .faq-intro{padding-right:0}
+ .faq-list summary{padding:16px;gap:16px;font-size:18px;line-height:1.3}
+ .faq-list summary>span{width:44px;height:44px;border-radius:12px}
+ .faq-answer{padding:20px 16px;font-size:16px;line-height:1.4}
+ .faq-answer p{line-height:1.4}
+}

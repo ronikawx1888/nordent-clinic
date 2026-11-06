@@ -1,0 +1,39 @@
+/* Process follows the supplied 1920 × 861 Figma export. */
+.process{background:#eff7ff}
+.process h2 .process-title-line{display:block;color:var(--blue)}
+.process h2 .process-muted{color:var(--lavender)}
+.process .process-card{color:#fff;background:#fff}
+.process .process-card img{filter:none;opacity:1;object-position:center}
+.process .process-card::after{background:#0c031a80}
+.process .process-card h3{font-family:'Instrument Sans',sans-serif;font-weight:500;color:#fff}
+.process .process-card>span{font-weight:700;color:var(--lavender);letter-spacing:-.03em}
+@media(min-width:1000px){
+ .process.section{padding:6.25vw 2.083333vw}
+ .process .section-heading{position:relative;display:block;height:9.635417vw;margin:0 0 5.208333vw}
+ .process .section-heading h2{font-family:Urbanist,sans-serif;font-size:4.947917vw;font-weight:700;line-height:1;letter-spacing:-.04em;transform:translateY(.052083vw)}
+ .process .process-title-line{white-space:nowrap}
+ .process .process-title-line:first-child{height:4.6875vw}
+ .process .section-heading>.button{position:absolute;right:0;top:6.354167vw;width:22.395833vw;height:3.645833vw;min-height:0;padding:0;font-family:'Instrument Sans',sans-serif;font-size:1.25vw;font-weight:700;line-height:1.5}
+ .process .process-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.833333vw;align-items:center}
+ .process .process-card{height:17.5vw;min-height:0;padding:2.083333vw;border-radius:2.083333vw}
+ .process .process-card:nth-child(2){height:17.395833vw}
+ .process .process-card img{border-radius:inherit}
+ .process .process-card:first-child{border-radius:.78125vw}
+ .process .process-card:first-child img,.process .process-card:first-child::after{border-radius:2.083333vw}
+ .process .process-card h3{font-size:1.25vw;line-height:1.5;max-width:none}
+ .process .process-card:nth-child(3) h3{width:10.9375vw}
+ .process .process-card:nth-child(4) h3{width:11.145833vw}
+ .process .process-card>span{top:11.25vw;bottom:auto;right:2.083333vw;font-size:8.333333vw;line-height:1;width:7.552083vw}
+ .process .process-card:nth-child(2)>span{top:11.145833vw;width:9.583333vw}
+ .process .process-card:nth-child(3)>span{width:9.0625vw}
+ .process .process-card:nth-child(4)>span{width:9.635417vw}
+}
+@media(max-width:999px){
+ .process .section-heading h2{font-weight:700}
+ .process .process-card h3{font-size:clamp(16px,2.2vw,24px)}
+ .process .process-card>span{bottom:-20px}
+}
+@media(min-width:601px) and (max-width:999px){
+ .process .process-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+ .process .process-card{min-height:250px;padding:25px}
+}

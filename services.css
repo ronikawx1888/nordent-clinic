@@ -1,0 +1,33 @@
+/* Services follows the supplied 1920 × 1148 Figma export. */
+.services .services-title-line{display:block;color:inherit}
+.services h2 .services-accent{color:var(--blue)}
+.services h2 .services-muted{color:var(--lavender)}
+.services .service-image{position:relative;flex-shrink:0;overflow:hidden;width:100%;aspect-ratio:1.616;border-radius:15px;margin-bottom:20px}
+.services .service-image img{width:100%;height:100%;object-fit:cover}
+.services .service-card:nth-child(1) .service-image img{object-position:center 49.8588%}
+.services .service-card:nth-child(2) .service-image img{object-position:center 22.5935%}
+.services .service-card:nth-child(4) .service-image img{object-position:center 68.4585%}
+@media(min-width:1000px){
+ .services.section{container-type:inline-size;display:flow-root;padding:6.25vw 0;background:#fff}
+ .services .section-heading{position:relative;display:block;height:9.635417cqw;margin:0 2.083333cqw 4.166667cqw}
+ .services h2{font-family:Urbanist,sans-serif;font-size:4.947917cqw;font-weight:700;line-height:1;letter-spacing:-.04em;color:var(--lavender);transform:translateY(.052083cqw)}
+ .services .services-title-line{white-space:nowrap}
+ .services .services-title-line:first-child{height:4.6875cqw}
+ .services .section-heading>p{position:absolute;left:80.052083cqw;top:.677083cqw;width:15.78125cqw;max-width:none;margin:0;padding:0;font-family:'Instrument Sans',sans-serif;font-size:1.145833cqw;line-height:1.045455;font-weight:400;color:var(--ink)}
+ .services .service-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.78125cqw;margin:0 2.604167cqw 0 2.552083cqw;padding:0;overflow:visible}
+ .services .service-card{display:flex;flex-direction:column;min-width:0;min-height:0;height:33.489583cqw;padding:1.041667cqw;border:0;border-radius:1.041667cqw;background:#f3f5fe;box-shadow:inset 4px 4px 10px -8px #606fa820;color:var(--ink)}
+ .services .service-image{width:100%;height:13.020833cqw;aspect-ratio:auto;border-radius:.78125cqw;margin-bottom:.78125cqw}
+ .services .service-card h3{font-family:'Instrument Sans',sans-serif;font-size:1.25cqw;font-weight:700;line-height:1.5;text-transform:uppercase;letter-spacing:0;white-space:nowrap;color:var(--blue);margin:0 0 .78125cqw}
+ .services .service-subtitle{font-family:'Instrument Sans',sans-serif;font-size:.9375cqw;font-weight:500;line-height:1.5;white-space:nowrap;margin:0 0 .78125cqw}
+ .services .service-card ul{font-family:'Instrument Sans',sans-serif;font-size:.9375cqw;font-weight:400;line-height:1.5;list-style:none;padding:0;margin:0;height:5.625cqw}
+ .services .service-card li{white-space:nowrap}
+ .services .service-card li::before{content:' • ';white-space:pre}
+ .services .service-card .button{width:100%;height:3.489583cqw;min-height:0;margin-top:auto;padding:0;font-family:'Instrument Sans',sans-serif;font-size:.9375cqw;font-weight:500;line-height:1.5;border:1px solid var(--blue);border-radius:6.927083cqw;background:transparent;color:var(--ink)}
+ .services .service-card .button:hover{background:var(--blue);color:#fff}
+}
+@media(max-width:999px){
+ .services h2{font-weight:700}
+}
+@media(max-width:600px){
+ .services .service-image{aspect-ratio:1.48;border-radius:10px;margin-bottom:10px}
+}

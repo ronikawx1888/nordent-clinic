@@ -1,0 +1,246 @@
+{
+  "images": {
+    "tooth": "images/glass-tooth.png",
+    "aligner": "images/glass-aligner.png",
+    "emergency": "images/emergency-dental.png",
+    "location": "images/clinic-location.png",
+    "booking": "images/booking-aligners.png"
+  },
+  "benefits": [
+    {
+      "title": "European-level technology & equipment",
+      "body": "Microscope dentistry, 3D CBCT imaging, digital scanning, ultra-precise tools, \nand next-generation anesthesia"
+    },
+    {
+      "title": "Comfort without stress",
+      "body": "Gentle, careful techniques — \nno pain, no pressure, \nno overwhelming sensations"
+    },
+    {
+      "title": "Clear, simple treatment plans",
+      "body": "We explain everything in plain language, \nshow visuals, analyze options, \nand justify every step"
+    },
+    {
+      "title": "Certified, experienced doctors",
+      "body": "Narrow specialists with international training and consistently updated expertise"
+    },
+    {
+      "title": "Honest recommendations",
+      "body": "No over-treatment. Only what your health truly needs"
+    }
+  ],
+  "services": [
+    {
+      "image": "images/service-0.jpg",
+      "title": "Aesthetic Dentistry",
+      "subtitle": "A smile that transforms your life",
+      "button": "Aesthetic Consultation",
+      "points": [
+        "No-prep / minimal-prep veneers",
+        "Natural aesthetics — no “toilet-white” effect",
+        "Smile simulation",
+        "Premium materials with long-lasting results"
+      ]
+    },
+    {
+      "image": "images/service-1.jpg",
+      "title": "ORTHODONTICS",
+      "subtitle": "Straight teeth — comfortable, discreet, effective",
+      "button": "Straighten My Teeth",
+      "points": [
+        "Invisible clear aligners",
+        "Braces: metal, ceramic, sapphire",
+        "Digital visualization for predictable results",
+        "Full orthodontist supervision at every stage"
+      ]
+    },
+    {
+      "image": "images/service-2.jpg",
+      "title": "GENERAL DENTISTRY & THERAPY",
+      "subtitle": "High-quality treatment that lasts",
+      "button": "Book a Check-Up",
+      "points": [
+        "Microscope-assisted treatment",
+        "Accurate diagnostics → correct treatment",
+        "Long-lasting, aesthetic restorations",
+        "Premium-grade materials"
+      ]
+    },
+    {
+      "image": "images/service-3.png",
+      "title": "PEDIATRIC DENTISTRY",
+      "subtitle": "A dental clinic where children feel safe",
+      "button": "Book a Visit for Your Child",
+      "points": [
+        "Fear-free, painless treatment",
+        "Fun, simple explanations",
+        "Ultra-soft anesthesia",
+        "Prevention-based care & guidance"
+      ]
+    }
+  ],
+  "doctors": [
+    {
+      "image": "images/doctor-0.png",
+      "name": "Dr. Anna Kovalenko",
+      "role": "Aesthetic & Restorative Dentist",
+      "experience": "Experience: 12 years",
+      "focus": "Focus: veneers, smile design, aesthetic restorations",
+      "qualifications": [
+        "Certified in European aesthetic protocols",
+        "Advanced smile design training",
+        "Minimally invasive techniques"
+      ],
+      "button": "Book with Dr. Kovalenko"
+    },
+    {
+      "image": "images/doctor-1.png",
+      "name": "Dr. Michael Hartmann",
+      "role": "Endodontist",
+      "experience": "Experience: 15 years",
+      "focus": "Focus: root canal treatment, complex pain cases, retreatment",
+      "qualifications": [
+        "Microscope-assisted endodontics",
+        "3,000+ acute pain cases treated",
+        "International certifications"
+      ],
+      "button": "Choose Dr. Hartmann"
+    },
+    {
+      "image": "images/doctor-2.png",
+      "name": "Dr. Anna Weiss",
+      "role": "Orthodontist",
+      "experience": "Experience: 9 years",
+      "focus": "Focus: clear aligners, bite correction, teen and adult orthodontics",
+      "qualifications": [
+        "Digital 3D smile planning",
+        "2,500+ successful orthodontic cases",
+        "Member of European Orthodontic Association"
+      ],
+      "button": "Choose Dr. Anna Weiss"
+    }
+  ],
+  "reviews": [
+    {
+      "image": "images/patient-0.webp",
+      "name": "Anna K., UK",
+      "body": "I was extremely nervous because of a bad dental experience in the past. The team took their time to explain everything and never rushed me. The treatment was completely painless, and for the first time I felt truly safe in a dental clinic."
+    },
+    {
+      "image": "images/patient-1.webp",
+      "name": "Michael R., Germany",
+      "body": "What impressed me most was the honesty. I was shown several treatment options with clear pros and cons, and there was no pressure to choose the most expensive one. Very transparent and professional approach!"
+    },
+    {
+      "image": "images/patient-2.webp",
+      "name": "Sofia L., Italy",
+      "body": "I came in with acute pain and was treated the same day. The diagnosis was fast, the anesthesia was gentle, and the pain relief was immediate. Everything was explained clearly, even during an emergency situation."
+    },
+    {
+      "image": "images/patient-3.webp",
+      "name": "Sofia L., Italy",
+      "body": "I came in with acute pain and was treated the same day. The diagnosis was fast, the anesthesia was gentle, and the pain relief was immediate. Everything was explained clearly, even during an emergency situation."
+    }
+  ],
+  "results": [
+    {
+      "before": "images/result-1.png",
+      "after": "images/result-2.png"
+    },
+    {
+      "before": "images/result-3.png",
+      "after": "images/result-4.png"
+    }
+  ],
+  "prices": [
+    {
+      "title": "Professional cleaning",
+      "price": "from €80"
+    },
+    {
+      "title": "Filling (composite)",
+      "price": "from €120"
+    },
+    {
+      "title": "Root canal treatment",
+      "price": "from €250"
+    },
+    {
+      "title": "Tooth whitening",
+      "price": "from €180"
+    },
+    {
+      "title": "Veneers (premium ceramics)",
+      "price": "from €500 each"
+    },
+    {
+      "title": "Clear aligners (full course)",
+      "price": "from €1,500"
+    },
+    {
+      "title": "Braces (ceramic)",
+      "price": "from €2,000"
+    },
+    {
+      "title": "Dental crown (zirconia)",
+      "price": "from €450 each"
+    },
+    {
+      "title": "Implant + crown package",
+      "price": "from €1,200"
+    },
+    {
+      "title": "Gum contouring (laser)",
+      "price": "from €300"
+    }
+  ],
+  "process": [
+    {
+      "image": "images/process-0.png",
+      "title": "Consultation & diagnostics"
+    },
+    {
+      "image": "images/process-1.png",
+      "title": "Personalized treatment plan"
+    },
+    {
+      "image": "images/process-2.png",
+      "title": "Comfortable, painless treatment"
+    },
+    {
+      "image": "images/process-3.png",
+      "title": "Follow-up care & long-term support"
+    }
+  ],
+  "emergency": [
+    "Same-day emergency appointments",
+    "Gentle anesthesia — no scary injections",
+    "Accurate 3D diagnostics for correct treatment",
+    "We handle complex cases: infections, abscesses, pulpitis"
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept international patients?",
+      "answer": "Yes — we frequently work with international clients and provide English-speaking support."
+    },
+    {
+      "question": "Is the clinic easy to reach by public transport?",
+      "answer": "Our clinic is near public transport. Contact reception for directions before your visit."
+    },
+    {
+      "question": "Do you have parking?",
+      "answer": "Yes, free on-site parking is available for our patients."
+    },
+    {
+      "question": "How early should I arrive for my appointment?",
+      "answer": "Please contact reception to confirm your arrival time and any preparation needed for your visit."
+    },
+    {
+      "question": "Can I book an appointment online?",
+      "answer": "Use the form below to prepare your appointment request, or call our reception to arrange your visit."
+    },
+    {
+      "question": "Do you offer emergency visits?",
+      "answer": "Yes, we offer same-day emergency appointments, subject to availability. Please call reception for urgent help."
+    }
+  ]
+}

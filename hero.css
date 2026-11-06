@@ -1,0 +1,54 @@
+/* Hero measurements follow the 1920 × 1080 Figma export supplied by the user. */
+.hero{container-type:inline-size;background:#eff7ff}
+.hero h1{font-weight:900;text-transform:uppercase;letter-spacing:-.07em;color:var(--lavender)}
+.hero-title-row{display:block;white-space:nowrap}
+.hero-trust{color:var(--blue)}
+.hero-family{font-family:Urbanist,sans-serif;text-transform:uppercase;font-weight:700;letter-spacing:-.07em;color:var(--lavender)}
+.hero-family-line{display:block;white-space:nowrap}
+.hero-whole{color:var(--blue)}
+.hero-orbit{position:absolute;width:70.46875%;aspect-ratio:1;left:-6.82291667%;top:-43.24074074%;border:1px solid #abbaf566;border-radius:50%;pointer-events:none}
+.hero-aligner{overflow:hidden;pointer-events:none}
+.hero-aligner>img{position:absolute;width:310.93118%;height:100%;max-width:none;left:-28.339%;top:0}
+.header{background:#abbaf51a;font-family:'Instrument Sans',sans-serif}
+.brand{font-weight:500}
+.header-actions{font-weight:400;white-space:nowrap}
+.header-actions .instagram-link{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--lavender);border-radius:999px;color:var(--blue);font-weight:500}
+.header-actions>a:last-child{font-weight:500;border-color:#606fa8}
+.hero-description{line-height:1.05}
+.hero-cta{font-family:'Instrument Sans',sans-serif;font-weight:700}
+@media(min-width:1000px){
+ .hero{height:56.25vw;min-height:0;max-height:none}
+ .hero .header{top:2.083333cqw;left:2.083333cqw;right:2.083333cqw;height:4.53125cqw;min-height:0;padding:0;border-radius:.78125cqw;font-size:.9375cqw;line-height:1.5;display:block}
+ .hero .brand{position:absolute;left:.78125cqw;top:1.5625cqw}
+ .hero .desktop-nav{position:absolute;left:15.15625cqw;top:.78125cqw;width:33.333333cqw;height:2.96875cqw;display:flex;gap:1.0416667cqw;font-weight:400}
+ .hero .desktop-nav>a{width:5.833333cqw;flex:0 0 5.833333cqw;text-align:center;white-space:nowrap}
+ .hero .header-actions{position:absolute;right:.78125cqw;top:.78125cqw;display:flex;align-items:center;gap:.520833cqw;height:2.96875cqw;margin:0}
+ .hero .header-actions>a:first-child{display:block;width:8.4375cqw;margin-right:1.041667cqw;padding-left:.520833cqw}
+ .hero .header-actions .instagram-link{width:4.270833cqw;height:2.96875cqw;padding:0}
+ .hero .header-actions>a:last-child{display:flex;align-items:center;justify-content:center;width:11.40625cqw;height:2.96875cqw;padding:0;font-size:.9375cqw}
+ .hero-copy{left:2.083333cqw;top:13.90625cqw}
+ .hero h1{font-size:6.25cqw;line-height:.9;font-weight:900}
+ .hero-title-row:first-child{height:5.729167cqw;line-height:5.625cqw}
+ .hero-title-second{font-size:7.291667cqw;line-height:6.5625cqw}
+ .hero-can{font-size:6.25cqw;letter-spacing:-.07em}
+ .hero-trust{font-size:7.291667cqw;letter-spacing:-.07em}
+ .hero-family{position:absolute;left:14.21875cqw;top:12.291667cqw;width:36.458333cqw;max-width:none;margin:0;font-size:5.729167cqw;line-height:.9}
+ .hero .hero-aligner{left:16.317443cqw;top:36.510417cqw;width:10.513468cqw;height:21.7931cqw;transform:rotate(43.36deg);transform-origin:0 0}
+ .hero-description{left:82.916667cqw;right:auto;top:17.135417cqw;width:15cqw;font-size:1.041667cqw}
+ .hero-cta{right:2.083333cqw;bottom:2.239583cqw;width:17.864583cqw;height:3.645833cqw;min-height:0;padding:2px 0 0;font-size:1.25cqw;line-height:1.5}
+ .hero-stripes{width:31.25%;mask-image:none;background:repeating-linear-gradient(90deg,#ffffff1a 0,#abbaF50d 2.708333cqw,#ffffff1a 4.166666cqw,transparent 4.166667cqw,transparent 6.770833cqw);z-index:1;pointer-events:none}
+ .hero-orbit{z-index:0;mask-image:linear-gradient(90deg,transparent 0 10.989583cqw,#000 10.989583cqw 13.59375cqw,transparent 13.59375cqw 17.760417cqw,#000 17.760417cqw 20.364583cqw,transparent 20.364583cqw 24.53125cqw,#000 24.53125cqw 27.135417cqw,transparent 27.135417cqw 31.302083cqw,#000 31.302083cqw 33.90625cqw,transparent 33.90625cqw 38.072917cqw,#000 38.072917cqw 100%)}
+}
+@media(max-width:999px){
+ .hero-orbit{display:none}
+ .hero .hero-aligner{height:38.743%}
+ .hero-title-second{font-size:1.1em}
+ .hero-can{font-size:.909091em}
+ .hero .hero-family span{display:inline}
+ .hero .hero-family .hero-family-line{display:block}
+}
+@media(max-width:600px){
+ .hero h1{font-weight:900;color:var(--lavender);font-size:32px;line-height:1}
+ .hero-family{font-size:clamp(32px,10.66667vw,40px);line-height:.9;margin-left:clamp(55px,20vw,75px);margin-top:20px;width:260px;color:var(--lavender)}
+ .hero .hero-aligner{width:18.05%;height:17.279%}
+}

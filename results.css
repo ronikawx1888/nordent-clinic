@@ -1,0 +1,21 @@
+/* Before / After follows the supplied 1920 × 1135 Figma export. */
+.results h2 .results-title-line{display:block;color:#fff}
+.results h2 .results-muted{color:var(--lavender)}
+@media(min-width:1000px){
+ .results.section{container-type:inline-size;padding:6.25vw 2.083333vw;background:var(--blue)}
+ .results .section-heading{display:block;position:relative;height:9.635417vw;margin:0 0 4.166667vw}
+ .results h2{font-family:Urbanist,sans-serif;font-size:4.947917vw;font-weight:700;line-height:1;letter-spacing:-.04em;transform:translateY(.052083vw)}
+ .results .results-title-line{white-space:nowrap}
+ .results .results-title-line:first-child{height:4.6875vw}
+ .results .section-heading>p{position:absolute;left:25.729167vw;top:2.03125vw;width:10.78125vw;max-width:none;padding:0;margin:0;font-family:'Instrument Sans',sans-serif;font-size:1.145833vw;font-weight:400;line-height:1.05;color:#fff}
+ .results .section-heading>.button{position:absolute;right:0;bottom:0;width:16.770833vw;height:3.645833vw;min-height:0;padding:0;font-family:'Instrument Sans',sans-serif;font-size:1.25vw;font-weight:700;line-height:1.5}
+ .results .result-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5625vw;margin:0;padding:0;overflow:visible}
+ .results .result-card{height:32.8125vw;padding:.78125vw;border-radius:.78125vw;gap:2.34375vw;background:#fff}
+ .results .result-image{height:29.166667vw;border-radius:.78125vw}
+ .results .result-image img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover}
+ .results .result-card span{padding:.78125vw 0 0;font-family:'Instrument Sans',sans-serif;font-size:1.25vw;font-weight:500;line-height:1.05;color:var(--ink)}
+}
+@media(max-width:999px){
+ .results h2{font-weight:700}
+ .results .result-image img{aspect-ratio:415/560}
+}

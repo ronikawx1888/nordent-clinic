@@ -1,0 +1,36 @@
+/* Emergency CTA, matched to the supplied 1920 × 1075 Figma export. */
+.emergency{position:relative;isolation:isolate}
+.cta-color-filter{position:absolute;pointer-events:none}
+.emergency-art,.emergency-frost{display:none;pointer-events:none}
+.emergency .cta-title-line{display:block;font-weight:700}
+.emergency h2 .cta-title-line{margin-left:0}
+.emergency h2 .cta-muted{display:inline;color:var(--lavender);margin:0}
+.emergency h2 .cta-accent{display:inline;color:var(--blue);margin:0}
+@media(min-width:1000px){
+ .emergency{container-type:inline-size;display:block;height:55.989583vw;min-height:0;background:linear-gradient(90deg,#e0ebfe 0%,#e0ebfe 36.211818%,#ffffff00 100%),#fff;overflow:hidden}
+ .emergency-art{display:block;position:absolute;left:30%;top:0;width:101.197917%;height:100%;overflow:hidden;z-index:-2}
+ .emergency-art>img{width:100%;height:100%;max-width:none;object-fit:contain;transform:scaleX(-1);filter:url(#cta-image-tint)}
+ .emergency-frost{display:block;position:absolute;inset:0 auto 0 0;width:70.9375%;height:100%;background:#edf2ff4d;backdrop-filter:blur(.78125cqw);z-index:-1}
+ .emergency-copy{position:relative;width:70.9375%;height:100%;padding:6.25cqw 2.083333cqw;z-index:auto}
+ .emergency h2{font-family:Urbanist,sans-serif;font-size:4.947917cqw;font-weight:700;line-height:1;letter-spacing:-.04em;transform:translateY(.052083cqw)}
+ .emergency h2 .cta-title-line{white-space:nowrap}
+ .emergency h2 .cta-title-line:first-child{height:4.6875cqw;margin-left:5.208333cqw}
+ .emergency-badges{display:contents}
+ .emergency-badges>span{position:absolute;height:3.385417cqw;padding:1.041667cqw;font-family:'Instrument Sans',sans-serif;font-size:1.25cqw;font-weight:500;line-height:1.041667;color:var(--blue);border-radius:.78125cqw;background:#eaf4fe33;border:0;box-shadow:inset 0 0 0 1px #ffffff80,inset 4px 4px 12px #606fa808;backdrop-filter:blur(.208333cqw);white-space:nowrap}
+ .emergency-badges .certified-badge{left:5.572917cqw;top:14.583333cqw;width:15.208333cqw}
+ .emergency-badges .experience-badge{left:40.885417cqw;top:15.833333cqw;width:15.572917cqw}
+ .emergency-copy ol{position:absolute;left:2.083333cqw;top:24.427083cqw;width:45.520833cqw;margin:0;display:grid;gap:2.083333cqw}
+ .emergency-copy li{position:relative;display:grid;grid-template-columns:1.40625cqw minmax(0,1fr);gap:1.041667cqw;align-items:start;height:2.8125cqw;margin:0;padding:0;font-family:'Instrument Sans',sans-serif;font-size:1.666667cqw;font-weight:400;line-height:1.0625;color:var(--ink);white-space:nowrap}
+ .emergency-copy li>span{padding:0;margin-top:.15625cqw;font-family:'Instrument Sans',sans-serif;font-size:1.041667cqw;line-height:1.05;color:var(--lavender)}
+ .emergency-copy li::after{content:'';position:absolute;left:2.447917cqw;right:0;bottom:-1px;border-top:2px solid #0c031a80}
+ .emergency-copy>.button{position:absolute;left:2.083333cqw;top:46.09375cqw;width:15.416667cqw;height:3.645833cqw;min-height:0;padding:2px 0 0;font-family:'Instrument Sans',sans-serif;font-size:1.25cqw;font-weight:700;line-height:1.5}
+ .emergency-visual{position:absolute;display:block;left:74.0625cqw;top:6.25cqw;min-width:0;width:15.9375cqw;height:auto}
+ .emergency-visual p{position:static;padding:0;max-width:none;width:100%;font-family:'Instrument Sans',sans-serif;font-size:1.145833cqw;font-weight:400;line-height:1.045455;color:var(--ink)}
+}
+@media(max-width:999px){
+ .emergency h2{font-weight:700}
+ .emergency h2 .cta-title-line{white-space:normal}
+ .emergency h2 .cta-title-line:first-child{margin-left:0}
+ .emergency-badges>span{padding:10px 12px;background:#eaf4fe80;border:1px solid #fff8;border-radius:10px}
+ .emergency-copy li{padding-bottom:15px;border-bottom:1px solid #0c031a40}
+}

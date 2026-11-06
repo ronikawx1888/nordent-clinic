@@ -1,0 +1,17 @@
+/* Location follows the supplied 1920 × 889 Figma export. */
+.location{background:#fff}
+.location h2{font-weight:700}
+.location ul{font-family:'Instrument Sans',sans-serif}
+.location li{position:relative;padding-left:1.5em}
+.location li::before{content:'';position:absolute;left:.625em;top:.45em;width:.15625em;height:.15625em;background:currentColor}
+.location-actions .button{font-family:'Instrument Sans',sans-serif;font-weight:700}
+@media(min-width:1000px){
+ .location.section{padding:6.25vw 2.083333vw;display:grid;grid-template-columns:minmax(0,901fr) minmax(0,909fr);gap:1.5625vw;align-items:end}
+ .location h2{height:4.947917vw;margin:0 0 4.166667vw;font-family:Urbanist,sans-serif;font-size:4.947917vw;line-height:1;letter-spacing:-.04em;white-space:nowrap;transform:translateY(.052083vw)}
+ .location ul{display:grid;gap:1.5625vw;font-size:1.666667vw;font-weight:400;line-height:1.05}
+ .location li{height:1.770833vw;white-space:nowrap}
+ .location-actions{display:flex;gap:.78125vw;margin:5.9375vw 0 0}
+ .location-actions .button{width:13.072917vw;height:3.645833vw;min-height:0;padding:0;font-size:1.25vw;line-height:1.5}
+ .location-image{height:28.854167vw;border-radius:.78125vw}
+ .location-image img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover}
+}

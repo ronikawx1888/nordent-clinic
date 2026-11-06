@@ -1,0 +1,15 @@
+/* Independent translate preserves GSAP's entrance transform and card layout. */
+@media(prefers-reduced-motion:no-preference) and (hover:hover) and (pointer:fine){
+ :is(.service-card,.doctor-card,.process-card){transition:translate .25s ease}
+ :is(.service-card,.doctor-card,.process-card):is(:hover,:focus-within){translate:0 -4px}
+}
+/* Section cards remain static; only the requested photo and accordion effects move. */
+:is(#about,#results,#reviews,#prices,#faq) *{transition:none!important;animation:none!important}
+:is(#about,#results,#reviews,#prices,#faq) .button:hover{transform:none}
+#results .result-image:is(:hover,:focus-visible) img{transform:none}
+.faq-list details.is-closing summary>span::before{transform:translateY(-4px) rotate(45deg)}
+@media(prefers-reduced-motion:no-preference){
+ #results .result-image img{transition:transform .55s cubic-bezier(.22,.61,.36,1)!important}
+ #results .result-image:is(:hover,:focus-visible) img{transform:scale(1.035)}
+ #faq .faq-list summary>span::before{transition:transform .4s ease!important}
+}

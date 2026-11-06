@@ -1,0 +1,40 @@
+/* About Us follows the supplied 1920 × 1097 Figma export. */
+.about .about-title-line{display:block;font-size:inherit;color:inherit}
+.about h2 .about-muted{color:var(--lavender)}
+.about h2 .about-accent{color:var(--blue)}
+.about h2{font-weight:700}
+@media(min-width:1000px){
+ .about.section{container-type:inline-size;display:flow-root;padding:6.25vw 0;background:#fff}
+ .about .about-heading{position:relative;margin:0 2.083333cqw 5.208333cqw;height:9.895833cqw}
+ .about h2{font-size:4.947917cqw;line-height:1;letter-spacing:-.04em;text-align:left;transform:translateY(.052083cqw)}
+ .about .about-title-line{white-space:nowrap}
+ .about .eyebrow{position:absolute;left:42.083333cqw;right:auto;top:-.885417cqw;width:9.791667cqw;height:3.385417cqw;display:flex;align-items:center;justify-content:flex-start;padding:0 0 0 1.041667cqw;border-radius:.78125cqw;background:#eaf4fe33;box-shadow:inset 4px 4px 12px #606fa808;color:var(--blue);font-family:'Instrument Sans',sans-serif;font-weight:500;font-size:1.25cqw;line-height:1.05}
+ .about .benefit-grid{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:repeat(2,14.375cqw);gap:.78125cqw 0;margin:0 2.083333cqw}
+ .about .benefit{grid-area:1/1;min-height:0;height:14.375cqw;display:flex;flex-direction:column;justify-content:space-between;gap:0;padding:1.5625cqw;border-radius:1.5625cqw;background:#f3f5fe;color:var(--ink);box-shadow:inset 6px 6px 12px -8px #606fa830}
+ .about .benefit-1{width:32.604167cqw;margin-left:0}
+ .about .benefit-2{width:20.364583cqw;margin-left:48.541667cqw;background:var(--blue);color:#fff;box-shadow:none}
+ .about .benefit-3{width:25.885417cqw;margin-left:69.947917cqw}
+ .about .benefit-4{grid-area:2/1;width:21.71875cqw;margin-left:0;background:var(--blue);color:#fff;box-shadow:none}
+ .about .benefit-5{grid-area:2/1;width:25.885417cqw;margin-left:22.760417cqw}
+ .about .card-number{font-size:.9375cqw;line-height:1.055556;color:#7c7884}
+ .about .benefit-2 .card-number,.about .benefit-4 .card-number{color:#c9c0d9}
+ .about .benefit h3{font-family:'Instrument Sans',sans-serif;font-weight:500;font-size:1.25cqw;line-height:1.041667;letter-spacing:0;margin:0 0 .78125cqw;white-space:nowrap}
+ .about .benefit p{max-width:none;font-family:'Instrument Sans',sans-serif;font-size:.9375cqw;line-height:1.166667;white-space:pre-line}
+ .about .benefit-1 p{width:17.864583cqw}
+ .about .benefit-2 p{width:15.364583cqw}
+ .about .benefit-3 p{width:17.5cqw}
+ .about .benefit-4 p{width:18.59375cqw}
+ .about .benefit-5 p{width:22.760417cqw;line-height:1.055556}
+ .about .card-number,.about .benefit p{position:relative;top:.052083cqw}
+}
+@media(min-width:601px) and (max-width:999px){
+ .about .benefit-1,.about .benefit-3,.about .benefit-5{background:#f3f5fe}
+}
+@media(max-width:600px){
+ .about h2{font-size:clamp(30px,9.6vw,36px)}
+ .about .about-title-line{font-size:inherit}
+ .about .about-title-line:first-child{white-space:nowrap}
+ .about .about-title-line:last-child{white-space:normal}
+ .about .benefit-1,.about .benefit-4{background:#f3f5fe}
+ .about .benefit p{white-space:normal}
+}

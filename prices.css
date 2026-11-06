@@ -1,0 +1,25 @@
+/* Prices follows the supplied 1920 × 1055 Figma export. */
+.prices{background:#fff}
+.prices h2 .prices-title-line{display:block;color:var(--blue)}
+.prices h2 .prices-muted{color:var(--lavender)}
+.prices .price-row{background:#f3f5fe;border:0;font-family:'Instrument Sans',sans-serif;font-weight:500;color:var(--ink);box-shadow:inset 4px 4px 10px -8px #606fa820}
+.prices .price-row strong{font-family:'Instrument Sans',sans-serif;font-weight:700;color:var(--ink)}
+.prices .price-amount{color:var(--blue)}
+.prices-collage{display:none}
+@media(min-width:1000px){
+ .prices.section{padding:6.25vw 2.083333vw;background:#fff}
+ .prices-heading{position:relative;height:14.322917vw;margin-bottom:5.208333vw}
+ .prices h2{font-family:Urbanist,sans-serif;font-size:4.947917vw;font-weight:700;line-height:1;letter-spacing:-.04em;margin:0;transform:translateY(.052083vw)}
+ .prices .prices-title-line{white-space:nowrap}
+ .prices .prices-title-line:not(:last-child){height:4.6875vw}
+ .prices-collage{position:absolute;top:0;right:0;width:16.927083vw;height:14.114583vw;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:6.666667vw 6.666667vw;gap:.78125vw}
+ .prices-collage img{width:100%;height:100%;object-fit:cover;border-radius:.78125vw}
+ .prices-collage img:first-child{grid-column:1/-1}
+ .prices .price-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(5,3.958333vw);grid-auto-flow:column;gap:.78125vw 1.5625vw}
+ .prices .price-row{height:3.958333vw;min-width:0;padding:1.041667vw;border-radius:.78125vw;display:flex;align-items:center;justify-content:space-between;gap:.78125vw;font-size:1.25vw;line-height:1.5}
+ .prices .price-row>span{white-space:nowrap}
+ .prices .price-row strong{font-size:1.25vw;line-height:1.5;white-space:nowrap}
+}
+@media(max-width:999px){
+ .prices h2{font-weight:700}
+}

@@ -1,0 +1,29 @@
+/* Footer follows the supplied 1920 × 869 Figma export. */
+.footer{position:relative;background:#fff}
+.footer .footer-title-line{display:block;color:#606fa8}
+.footer h2{font-weight:700}
+.footer-socials{display:flex;gap:30px}
+.footer-socials img{width:40px;height:40px}
+.footer .footer-nordent{color:var(--blue)}
+.footer .footer-clinic{color:var(--lavender)}
+.footer .copyright{color:#878990}
+@media(min-width:1000px){
+ .footer.section{height:45.260417vw;padding:2.083333vw;overflow:hidden}
+ .footer h2{font-family:Urbanist,sans-serif;font-size:4.947917vw;font-weight:700;line-height:1;letter-spacing:-.04em;transform:translateY(.052083vw);margin:0}
+ .footer .footer-title-line:first-child{height:4.6875vw}
+ .footer-socials{position:absolute;top:2.083333vw;right:2.083333vw;gap:1.5625vw}
+ .footer-socials img{width:2.083333vw;height:2.083333vw}
+ .footer .footer-details{position:absolute;left:60.9375vw;top:15.885417vw;width:36.979167vw;height:7.8125vw;display:block;margin:0}
+ .footer .footer-details nav{position:absolute;left:-.234375vw;top:.3125vw;display:grid;grid-template-columns:5.729167vw 3.697917vw;grid-template-rows:repeat(4,1.40625vw);grid-auto-flow:column;gap:.260417vw 1.5625vw;font-size:.9375vw;line-height:1.5;white-space:nowrap}
+ .footer address{position:absolute;left:14.921875vw;top:0;width:22.291667vw;max-width:none;display:grid;gap:.260417vw;font-family:'Instrument Sans',sans-serif;font-size:.9375vw;line-height:1.5;font-weight:400;white-space:nowrap}
+ .footer address p{line-height:1.5}
+ .footer .footer-wordmark{position:absolute;left:2.083333vw;top:28.90625vw;width:95.833333vw;display:grid;grid-template-columns:minmax(0,1080fr) minmax(0,710fr);gap:2.604167vw;margin:0;font-family:Urbanist,sans-serif;font-size:16.5625vw;font-weight:700;line-height:.73;letter-spacing:-.04em;white-space:nowrap}
+ .footer .copyright{position:absolute;left:2.083333vw;top:41.510417vw;margin:0;font-family:'Instrument Sans',sans-serif;font-size:.9375vw;line-height:1.5;font-weight:400}
+ .footer .footer-clinic{text-indent:-.260417vw}
+}
+@media(max-width:999px){
+ .footer-socials{margin-top:25px;gap:20px}
+ .footer-socials img{width:32px;height:32px}
+ .footer .footer-details{width:auto;gap:30px;margin-top:35px}
+ .footer .footer-wordmark{display:flex;justify-content:space-between;gap:10px;font-size:14.4vw;letter-spacing:-.04em}
+}

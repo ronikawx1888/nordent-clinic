@@ -1,0 +1,36 @@
+@font-face{font-family:Livvic;src:url('/fonts/livvic-regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:Livvic;src:url('/fonts/livvic-medium.ttf') format('truetype');font-weight:500;font-display:swap}
+@font-face{font-family:Roboto;src:url('/fonts/roboto.ttf') format('truetype');font-weight:100 900;font-display:swap}
+/* Doctors follows the supplied 1920 × 1267 Figma export. */
+.doctors h2 .doctors-title-line{display:block;color:var(--blue)}
+.doctors h2 .doctors-muted{color:var(--lavender)}
+.doctors .doctor-card{font-family:Livvic,sans-serif;background:#f3f5fe;border:0}
+.doctors .doctor-card h3{font-family:Livvic,sans-serif;font-weight:500}
+.doctors .doctor-card li::before{color:#474a48}
+.doctors .doctor-card .button{font-family:Livvic,sans-serif;font-weight:500;color:var(--ink)}
+.doctors .doctor-card:nth-child(n+2) .button{font-family:Roboto,sans-serif}
+.doctors .doctor-card .button:hover{color:#fff}
+@media(min-width:1000px){
+ .doctors.section{padding:6.25vw 2.083333vw 6.614583vw;background:#fff}
+ .doctors .section-heading{position:relative;display:block;height:9.635417vw;margin:0 0 5.208333vw}
+ .doctors .section-heading h2{font-family:Urbanist,sans-serif;font-size:4.947917vw;font-weight:700;line-height:1;letter-spacing:-.04em;transform:translateY(.052083vw)}
+ .doctors .doctors-title-line{white-space:nowrap}
+ .doctors .doctors-title-line:first-child{height:4.6875vw}
+ .doctors .section-heading>p{position:absolute;left:78.177083vw;top:.520833vw;width:17.65625vw;max-width:none;padding:0;margin:0;font-family:'Instrument Sans',sans-serif;font-size:1.145833vw;font-weight:400;line-height:1.05;color:var(--ink)}
+ .doctors .doctor-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.041667vw}
+ .doctors .doctor-card{height:38.28125vw;min-height:0;padding:1.041667vw;border-radius:1.041667vw;font-size:.9375vw;box-shadow:inset 4px 4px 10px -8px #606fa820}
+ .doctors .doctor-photo{width:100%;height:19.53125vw;aspect-ratio:auto;object-fit:cover;object-position:center;border-radius:.78125vw;margin:0 0 .78125vw}
+ .doctors .doctor-heading{display:flex;position:relative;align-items:flex-start;justify-content:space-between;gap:0;height:1.875vw;flex-shrink:0;margin:0 0 .520833vw}
+ .doctors .doctor-heading h3{font-size:1.25vw;line-height:1.5;letter-spacing:0;white-space:nowrap;color:var(--blue)}
+ .doctors .doctor-heading>span{font-size:.9375vw;line-height:1.5;font-weight:500;max-width:none;text-align:right;margin:0;white-space:nowrap}
+ .doctors .doctor-card p{font-size:.9375vw;line-height:1.5;font-weight:400;margin:0 0 .260417vw;white-space:nowrap}
+ .doctors .doctor-card ul{font-size:.9375vw;line-height:1.5;font-weight:400;margin:0}
+ .doctors .doctor-card li{white-space:nowrap}
+ .doctors .doctor-card li::before{content:'✔️';display:inline-block;width:1.354167vw;padding-left:.208333vw;font-family:'Segoe UI Emoji',sans-serif}
+ .doctors .doctor-card .button{width:100%;height:3.333333vw;min-height:0;padding:0;margin-top:auto;border:1px solid var(--blue);border-radius:6.927083vw;font-size:.9375vw;line-height:1.5;background:transparent}
+ .doctors .doctor-card .button:hover{background:var(--blue)}
+}
+@media(max-width:999px){
+ .doctors .section-heading h2{font-weight:700}
+ .doctors .doctor-photo{object-position:center}
+}
