@@ -6,7 +6,8 @@
 .doctors h2 .doctors-muted{color:var(--lavender)}
 .doctors .doctor-card{font-family:Livvic,sans-serif;background:#f3f5fe;border:0}
 .doctors .doctor-card h3{font-family:Livvic,sans-serif;font-weight:500}
-.doctors .doctor-card li::before{color:#474a48}
+.doctors .doctor-card ul{list-style:disc;padding-inline-start:1.35em}
+.doctors .doctor-card li::before{content:none}
 .doctors .doctor-card .button{font-family:Livvic,sans-serif;font-weight:500;color:var(--ink)}
 .doctors .doctor-card:nth-child(n+2) .button{font-family:Roboto,sans-serif}
 .doctors .doctor-card .button:hover{color:#fff}
@@ -26,7 +27,6 @@
  .doctors .doctor-card p{font-size:.9375vw;line-height:1.5;font-weight:400;margin:0 0 .260417vw;white-space:nowrap}
  .doctors .doctor-card ul{font-size:.9375vw;line-height:1.5;font-weight:400;margin:0}
  .doctors .doctor-card li{white-space:nowrap}
- .doctors .doctor-card li::before{content:'✔️';display:inline-block;width:1.354167vw;padding-left:.208333vw;font-family:'Segoe UI Emoji',sans-serif}
  .doctors .doctor-card .button{width:100%;height:3.333333vw;min-height:0;padding:0;margin-top:auto;border:1px solid var(--blue);border-radius:6.927083vw;font-size:.9375vw;line-height:1.5;background:transparent}
  .doctors .doctor-card .button:hover{background:var(--blue)}
 }
